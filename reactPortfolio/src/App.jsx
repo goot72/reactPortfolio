@@ -1,22 +1,22 @@
 import React from "react";
 import "./app.css";
-import sidebar from './components/sidebar/sidebar';
-import home from './components/home/home';
-import about from './components/about/about';
-import portfolio from './components/portfolio/portfolio';
-import resume from './components/resume/resume';
-import contact from './components/contact/contact';
+import Sidebar from './components/sidebar/Sidebar';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Portfolio from './components/portfolio/Portfolio';
+import Resume from './components/resume/Resume';
+import Contact from './components/contact/Contact';
 
 function App() {
     return [
         <>
-        <sidebar />
+        <Sidebar />
         <main className='main'>
-            <home />
-            <about />
-            <portfolio />
-            <resume />
-            <contact />
+            <Home />
+            <About />
+            <Portfolio />
+            <Resume />
+            <Contact />
         </main>
         </>
     ]
