@@ -12,11 +12,11 @@ function App() {
         <>
         <Sidebar />
         <main className='main'>
-            <Home />
+            {/* <Home />
             <About />
             <Portfolio />
             <Resume />
-            <Contact />
+            <Contact /> */}
         </main>
         </>
     ]
