@@ -1,0 +1,26 @@
+.home__img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1.5rem;
+}
+
+.home{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inro{
+    max-width: 540px;
+   text-align: center;
+}
+
+.home__name{
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+
+

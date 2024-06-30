@@ -1,12 +1,12 @@
 import React from "react";
 import "./sidebar.css";
-import Logo from "../../assets/a.jpg";
+import Logo from "../../assets/sidebar.jpeg";
 
 function sidebar() {
     return (
         <aside className="aside">
             <a href="#home" className="nav_logo">
-                {/* <img src={Logo} alt="Logo" /> */}
+                <img id="nav__photo"src={Logo} alt="Logo" />
             </a>
 
             <nav className="nav">
