@@ -18,7 +18,11 @@ function App() {
             <Resume />
             <Contact />
         </main>
+        <footer className='footer'>
+            <button className="footer__links">Git Hub</button>
+        </footer>
         </>
+
     ]
 };
 

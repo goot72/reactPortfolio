@@ -1,0 +1,49 @@
+.work__img{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.work__filters{
+    display: flex;
+    align-items: center;
+    column-gap: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.work__item{
+    cursor: pointer;
+    font-weight: var(--font-bold);
+}
+
+.work__item:hover {
+    color: aqua;
+    transition: .3s;
+}
+
+.work__container{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+}
+
+.work__card{
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.work__button{
+    color: #fff;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    font-size: var(--h3-font-size);
+    display: block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    padding-bottom: 5px;
+}
