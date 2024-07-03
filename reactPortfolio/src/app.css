@@ -1,3 +1,9 @@
 .main{
     margin-left: 110px;
 }
+
+.button__link{
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
